@@ -1,0 +1,105 @@
+%888888 88     888888 Yb    dP 888888 88b 88 .dP"Y8 88""Yb 88 88b 88 .dP"Y8
+%88__   88     88__    Yb  dP  88__   88Yb88 `Ybo." 88__dP 88 88Yb88 `Ybo."
+%88""   88     88""     YbdP   88""   88 Y88 o.`Y8b 88"""  88 88 Y88 o.`Y8b
+%888888 88ood8 888888    YP    888888 88  Y8 8bodP' 88     88 88  Y8 8bodP'
+%
+%
+% Original author:
+% Marian Mutschler (dev@mutschler-m.de) @ElevenSpins
+%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 11pt, oneside]{book} % A4 paper size, default 11pt font size and oneside for equal margins
+
+\newcommand{\plogo}{\fbox{$\mathcal{PL}$}} % Generic dummy publisher logo
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{fouriernc} % Use the New Century Schoolbook font
+\usepackage{graphicx}
+\usepackage[english, german]{babel} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{document} 
+
+\begin{titlepage} 
+	\centering 
+	\scshape 
+	\vspace*{\baselineskip} 
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} 
+	\rule{\textwidth}{0.4pt}
+	
+	\vspace{0.75\baselineskip} 
+	
+	{\LARGE Title line 1\\ Title line 2\\ Title line 3\\} % Title
+	
+	\vspace{0.75\baselineskip} 
+	
+	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} 
+	\rule{\textwidth}{1.6pt} 
+	
+	\vspace{2\baselineskip} 
+	
+	%------------------------------------------------
+	%	Subtitle
+	%------------------------------------------------
+	
+	Subtitle % Subtitle / description
+	
+	\vspace*{3\baselineskip}
+	
+	%------------------------------------------------
+	%	Editor(s)
+	%------------------------------------------------
+	
+	Informations
+	
+	\vspace{0.5\baselineskip} 
+	
+	{\scshape\Large Information 1 \\ Information 2 \\ Information 3 \\ ... \\}
+	
+	\vspace{0.8\baselineskip}
+	
+	\textit{Owner \\ Location \\} 
+	
+	\vfill % 
+	
+	%------------------------------------------------
+	%	Publisher
+	%------------------------------------------------
+	
+    \includegraphics{assets/DHBW_MA_Logo.jpg}
+	
+	\vspace{0.3\baselineskip} 
+	
+	2021 
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+
+\tableofcontents
+\newpage
+
+\chapter{Section 01}
+
+\section{Entwicklung des Friedrichsparks und der Universität Mannheim} 
+\subsection{Subsection 1}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\subsection{Subsection 2}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\subsection{Subsection 3}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\section{Section 02} 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+\end{document}

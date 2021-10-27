@@ -1,0 +1,7 @@
+\babel@toc {german}{}
+\contentsline {chapter}{\numberline {1}Section 01}{2}{}%
+\contentsline {section}{\numberline {1.1}Entwicklung des Friedrichsparks und der Universität Mannheim}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}Subsection 1}{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}Subsection 2}{2}{}%
+\contentsline {subsection}{\numberline {1.1.3}Subsection 3}{2}{}%
+\contentsline {section}{\numberline {1.2}Section 02}{2}{}%
