@@ -7,10 +7,10 @@ This is a basic template for all things you need all day.
 
 ### Titlepage
 <p align="center">
-  <img src="./assets/basic_titlepage.png" alt="basic preview" width="400">
+  <img src="./assets/basic_titlepage.png" alt="basic preview" width="400" style="border: 5px solid #555">
 </p>
 
 ### Contentlisting
 <p align="center">
-  <img src="./assets/basic_content.png" alt="basic preview" width="400">
+  <img src="./assets/basic_content.png" alt="basic preview" width="400" style="border: 5px solid #555">
 </p>
