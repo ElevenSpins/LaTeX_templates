@@ -1,0 +1,52 @@
+%888888 88     888888 Yb    dP 888888 88b 88 .dP"Y8 88""Yb 88 88b 88 .dP"Y8
+%88__   88     88__    Yb  dP  88__   88Yb88 `Ybo." 88__dP 88 88Yb88 `Ybo."
+%88""   88     88""     YbdP   88""   88 Y88 o.`Y8b 88"""  88 88 Y88 o.`Y8b
+%888888 88ood8 888888    YP    888888 88  Y8 8bodP' 88     88 88  Y8 8bodP'
+%
+%
+% Original author:
+% Marian Mutschler (dev@mutschler-m.de) @ElevenSpins
+%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usetheme{Madrid}  % Themenwahl; alternative: Berlin
+\usecolortheme{beaver} % Farbauswahl
+
+%----------------------------------------------------------------------------------------
+%	Content
+%----------------------------------------------------------------------------------------
+
+
+\title{Präsentation}
+\author{Eleven Spins}
+\date{\today}
+
+\begin{document}
+\maketitle
+\frame{\tableofcontents[currentsection]}
+
+\section{Abschnitt 1}
+\begin{frame} %%Eine Folie
+  \frametitle{Ein Demotitel} %%Folientitel
+  \begin{Definition} %%Definition
+    Eine Definition
+  \end{Definition}
+\end{frame}
+\begin{frame}
+    \begin{columns}[c]
+        \column{0.4\textwidth}
+        In die erste Spalte schreibe ich einen Text.
+        Dieser Text hat mehr als nur einen Paragraphen. 
+        
+        \column{0.2\textwidth}
+        2. Spalte
+        \column{0.4\textwidth} \includegraphics[width=\linewidth]{assets/DHBW_MA_Logo.jpg}
+        \end{columns}
+    
+\end{frame}
+\end{document}
